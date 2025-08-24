@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-public class Stage {
-    // Properties
-
-
-    // Constructors
-    public Stage(){
-        
-    }
-=======
 import java.awt.Graphics;
 import java.awt.Point;
 
@@ -30,5 +20,4 @@ public class Stage {
     dog.paint(g);
     bird.paint(g);
   }
->>>>>>> 727cb67c3d258132db9bfa6e496d5db6c8b109cd
 }
