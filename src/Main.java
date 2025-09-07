@@ -1,7 +1,6 @@
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.io.IOException;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -19,6 +18,7 @@ public class Main extends JFrame {
           stage = StageReader.readStage("data/stage1.rvb");
         } catch (IOException e) {
           e.printStackTrace();
+          System.out.println("Failed to load stage");
         }
       }
 
